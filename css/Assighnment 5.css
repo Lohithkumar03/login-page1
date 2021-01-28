@@ -1,0 +1,152 @@
+body{
+    height: 100%;
+    background:linear-gradient(to top right, #0652C5 20%, #D4418E 81%);
+}
+
+.container{
+    padding: 95px 0px;
+    margin: 100px 100px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+img{
+    width: 150px;
+    border-radius: 50%;
+    top: 40%;
+    margin: 50% auto 0 auto;
+    display: block;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 1);
+
+}
+
+.imgavathar{
+    align-items: center;
+    padding-left: 50px;
+    display: inline-block;
+    width: 20%;
+    
+}
+
+.formbanner{
+    color: black;
+    display: inline-block;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-left: 60%;
+    
+  
+}
+
+a{
+    margin-top: 10px;
+   padding: 10%;
+    text-decoration: none;
+    color: rgb(63, 59, 59);
+}
+
+.inputfield{
+    background-color: rgb(218, 209, 209);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 35px;
+    outline: none;
+}
+
+.submit{
+    margin-top: 10%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 10px 103px;
+    border: none;
+    background-color: rgb(114, 126, 114);
+    cursor: pointer;
+
+}
+
+.input-icons i {
+    position: absolute;
+    margin-top: 0.6%;
+    margin-left: 1%;
+ }
+
+
+
+                        /* @media (max-width: 600px) */
+
+ @media (max-width: 600px){
+    .formbanner {
+        display: block;
+        margin: 24% auto 0 auto;
+        /* border: 2px solid black; */
+        /* background-color: black; */
+    }
+
+
+    img{
+        width: 150px;
+        margin:1% auto 0 auto;
+        display: block;
+    }
+
+    .imgavathar{
+        width: 100%;
+        padding-left: 0;
+    }
+ }
+ 
+
+                    /* @media only screen and (min-width: 600px) */
+
+ @media only screen and (min-width: 600px){
+    .formbanner {
+        margin: -15% auto 0 auto;
+        display: block;
+        /* border: 2px solid red;
+        background-color: black; */
+    }
+
+
+    img{
+        display: block;
+        width: 150px;
+        margin:  auto auto 35%;
+    }
+
+    .imgavathar{
+        width: 100%;
+        padding-left: 0;
+    }
+ }
+
+
+                        /* @media only screen and (min-width: 768px) */
+
+ @media only screen and (min-width: 768px){
+    .formbanner {
+        margin: -37% 0 0% 47%;
+        display: inline-block;
+        /* background-color: red; */
+    }
+
+    .imgavathar{
+        margin: 6% 0 0 0;
+        display: inline-block;
+        
+    }
+
+    img{
+        display: inline-block;
+        width: 150px;
+        margin:auto 50% 0 9% ;
+        
+    }
+
+    .submit{
+        margin-top: 5%;
+    }
+  
+ }
+
+ 
